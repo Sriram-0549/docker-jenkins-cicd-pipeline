@@ -6,7 +6,7 @@ This project demonstrates how every code change pushed to GitHub is automaticall
 
 ---
 
-## 📌 Features
+## 📌 Features...
 
 - ✅ Node.js Express Application
 - ✅ Dockerized Application
