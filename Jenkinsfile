@@ -43,7 +43,7 @@ pipeline {
             steps {
                 sh '''
                 docker rm -f node-app || true
-                docker run -d --name node-app -p 3000:3000 $IMAGE_NAME:$IMAGE_TAG
+                docker run -d --name node-app -p 3001:3000 $IMAGE_NAME:$IMAGE_TAG
                 '''
             }
         }
